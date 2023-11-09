@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <%- include('partials/head.ejs')  %>
+</head>
+<body>
+    <%- include('partials/header.ejs')  %>
+    <div class="container">
+        <div class="main">
+            <form action="" class="form">
+                <h3>Регистрация</h3>
+                <fieldset class="fieldset">
+                    <label for="">Email</label>
+                    <input type="email" placeholder="Введите почту" name="" id="">
+                </fieldset>
+                <fieldset class="fieldset">
+                    <label for="">Полное имя</label>
+                    <input type="email" placeholder="Введите полное имя" name="full_name" id="">
+                </fieldset>
+                <fieldset class="fieldset">
+                    <label for="">Пароль</label>
+                    <input type="email" placeholder="Введите Пароль" name="password" id="">
+                </fieldset>
+                <fieldset class="fieldset">
+                    <label for="">Потвердите пароль</label>
+                    <input type="email" placeholder="Потвердите Пароль" name="re-password" id="">
+                </fieldset>
+                <fieldset class="fieldset">
+                    <button type="submit">
+                        Зарегистрироваться
+                    </button>
+                </fieldset>
+                <p>У вас нету аккаунта? <a href="/register">Зарегистрироваться</a></p>
+                </form>
+        </div>
+    </div>
+</body>
+</html>

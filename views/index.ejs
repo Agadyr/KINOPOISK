@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <%- include('partials/head.ejs')  %>
+</head>
+<body>
+    <%- include('partials/header.ejs')  %>
+    <div class="container">
+        <div class="main">
+            <div class="categories">
+                <a href="">Драма</a>
+                <a href="">Комедии</a>
+                <a href="">Ужасы</a>
+            </div>
+            <div class="main-content">
+                <h3>Фильмы и Сериалы</h3>
+                <div class="main-card">
+                    <div class="card-left">
+                        <div class="film-img">
+                            <img src="/images/films/1-film.webp" alt="">
+                        </div>
+                        <div class="film-info">
+                            <a href="">Все везде и сразу</a>
+                            <a href="">Everything Everywhere All at Once, 139 мин</a>
+                            <a href="">США, Фантастика</a>
+                            <button class="film-btn">
+                                <img src="/images/icons/orig.svg" alt="">
+                                Смотреть
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-right">
+                        <div class="film-rate">
+                            <p>7.3</p>
+                        </div>
+                        <button class="film-btn">
+                            <img src="images/icons/save.svg" alt="">
+                            Буду Смотреть
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
